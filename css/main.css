@@ -83,11 +83,19 @@ summary {
 
 .hello {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
     gap: 2rem;
 }
 .hello__text {
     flex: 1 0 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .hello {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }  
 }
 
 .section {
