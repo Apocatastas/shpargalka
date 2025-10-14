@@ -22,7 +22,11 @@ p {
 }
 
 a {
-    color: #353333;
+    color: #353399;
+}
+
+a:visited {
+    color: #353399;
 }
 
 h1,
